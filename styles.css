@@ -14,7 +14,7 @@ body {
 }
 main {
 	display: flex;
-	position: absolute;
+	position: relative;
 	flex-direction: column;
 }
 h1 {
