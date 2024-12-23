@@ -1,0 +1,155 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: 'ГОСТ тип А', sans-serif;
+}
+@font-face {
+	font-family: 'ГОСТ тип А';
+	src: url('./Fonts/Gost_A/fonts/gost_tip_a.eot'); /* IE 9 Compatibility Mode */
+	src: url('./Fonts/Gost_A/fonts/gost_tip_a.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./Fonts/Gost_A/fonts/gost_tip_a.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./Fonts/Gost_A/fonts/gost_tip_a.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./Fonts/Gost_A/fonts/gost_tip_a.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./Fonts/Gost_A/fonts/gost_tip_a.svg#gost_tip_a') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+main {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+}
+h1 {
+	font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+	margin-left: 20px;
+}
+.page-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.none {
+	color: red;
+}
+.importantText {
+	font-weight: bold;
+}
+.mainText {
+	font-size: 20px;
+}
+.mainTitle {
+	position: relative;
+	top: 50px;
+	margin-left: 15px;
+	font-size: 30px;
+}
+.top {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 30px;
+    margin-left: auto;
+	margin-right: auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+    position: absolute;
+    vertical-align: middle;
+    left: 0;
+	z-index: 2;
+}
+.cardImage {
+	display: flex;
+	align-items: center;
+}
+.logoBaner {
+	position: absolute;
+	right: 0;
+	width: 1400px;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.1;
+	z-index: 1;
+}
+.headerTitle {
+	position: relative;
+	display: table-cell;
+	margin: 0;
+	font-size: 50px;
+	z-index: 2;
+}
+li::marker {
+	font-size: 20px;
+	font-weight: bold;
+}
+li.mainText::marker {
+	font-size: 20px;
+	font-weight: 100;
+	position: relative;
+	top: 25px;
+}
+.sketches {
+	height: 350px;
+}
+.subsectionTitle {
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+}
+.qrBlock {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.backTableContainer {
+	height: 100px;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.backTable {
+	font-size: 20px;
+}
+.backButtonContainer {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+@media (max-width: 768px) {
+	.top {
+		height: 70px;
+		top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo {
+		height: 50px;
+	}
+	.logoBaner {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0.1;
+		z-index: 1;
+	}
+	.headerTitle {
+		position: relative;
+		display: table-cell;
+		margin: 0;
+		font-size: 25px;
+		z-index: 2;
+	}
+	.sketches {
+		width: 90%;
+		object-fit: contain;
+	}
+}
