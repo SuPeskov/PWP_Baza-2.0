@@ -51,7 +51,6 @@ h2 {
     margin-left: auto;
 	margin-right: auto;
     display: flex;
-	justify-content: center;
 	align-items: center;
 }
 .logo {
@@ -74,8 +73,8 @@ h2 {
 	z-index: 1;
 }
 .headerTitle {
-	position: relative;
-	display: table-cell;
+	width: 100%;
+	text-align: center;
 	margin: 0;
 	font-size: 50px;
 	z-index: 2;
@@ -137,6 +136,8 @@ li.mainText::marker {
 	}
 	.headerTitle {
 		font-size: 35px;
+		text-align: right;
+		margin-right: 15px;
 	}
 	.sketches {
 		width: 90%;
