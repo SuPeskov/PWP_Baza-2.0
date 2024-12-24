@@ -17,6 +17,12 @@ main {
 	position: relative;
 	flex-direction: column;
 }
+p {
+	margin-right: 5px;
+}
+hr {
+	margin-right: 5px;
+}
 h1 {
 	font-size: 25px;
 }
@@ -36,6 +42,7 @@ h2 {
 }
 .mainText {
 	font-size: 20px;
+	margin-right: 5px;
 }
 .mainTitle {
 	position: relative;
@@ -92,6 +99,9 @@ li.mainText::marker {
 .sketches {
 	height: 350px;
 }
+.sample {
+	width: 40%;
+}
 .subsectionTitle {
 	position: relative;
 	top: 25px;
@@ -143,6 +153,9 @@ li.mainText::marker {
 		width: 90%;
 		object-fit: contain;
 	}
+	.sample {
+		width: 90%;
+	}
 }
 @media (max-width: 480px) {
 	.top {
@@ -158,8 +171,12 @@ li.mainText::marker {
 	}
 	.mainTitle {
 		font-size: 20px;
+		margin-left: 10px;
 	}
 	h1 {
 		font-size: 20px;
+	}
+	ol {
+		padding-left: 0;
 	}
 }
