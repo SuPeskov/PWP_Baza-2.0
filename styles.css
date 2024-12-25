@@ -177,6 +177,6 @@ li.mainText::marker {
 		font-size: 20px;
 	}
 	ol {
-		padding-left: 0;
+		padding-left: 40px;
 	}
 }
