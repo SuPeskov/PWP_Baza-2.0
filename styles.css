@@ -99,6 +99,10 @@ li.mainText::marker {
 .sketches {
 	height: 350px;
 }
+.sketchesBlock {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
 .sample {
 	width: 40%;
 }
