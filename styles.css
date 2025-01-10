@@ -173,6 +173,10 @@ li.mainText::marker {
 	border-style: solid;
 	border-color: black transparent transparent transparent;
   }
+  .tutorialVideo {
+	width: 720px;
+	height: 405px;
+  }
 @media (max-width: 768px) {
 	.top {
 		height: 70px;
@@ -199,6 +203,9 @@ li.mainText::marker {
 	.sample {
 		width: 90%;
 	}
+	.tutorialVideo {
+		width: 100%;
+	  }
 }
 @media (max-width: 480px) {
 	.top {
