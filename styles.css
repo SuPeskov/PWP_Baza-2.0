@@ -174,6 +174,7 @@ li.mainText::marker {
 	border-color: black transparent transparent transparent;
   }
   .tutorialVideo {
+	margin-top: 15px;
 	width: 720px;
 	height: 405px;
   }
