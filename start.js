@@ -17,7 +17,7 @@ async function login() {
         });
 
         const data = await res.json()
-        localStorage.setItem('token', data.token);
+        sessionStorage.setItem('token', data.token);
         console.log(data);
 
     window.location.href = 'index.html'
