@@ -20,7 +20,11 @@ async function login() {
         sessionStorage.setItem('token', data.token);
         console.log(data);
 
-    window.location.href = 'index.html'
+        const token = sessionStorage.getItem('token');
+
+        if (token !== 'undefined') {
+          window.location.href = './index.html';
+      }
 
   } catch(error) {
       console.error(`Ошибка ${error}`);
@@ -30,4 +34,5 @@ async function login() {
 productSubmit.addEventListener('click', (event) => {
   event.preventDefault();
   login();
+
 });
