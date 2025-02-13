@@ -301,6 +301,7 @@ li.mainText::marker {
 	.sketches {
 		width: 90%;
 		object-fit: contain;
+		height: auto;
 	}
 	.sample {
 		width: 90%;
